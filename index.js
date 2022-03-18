@@ -115,10 +115,13 @@ async function clickExpandedF() {
       break;
     } else {
       validar = await expandVideo(frame, position[contPosition], position2[contPosition]);
+      if (validar == false) {
+        return true;
+      }
     }
     contPosition++;
   }
-  return validar;
+  // return validar;
 }
 async function clickEscF(pageOrFrame) {
   if (pageOrFrame) {
@@ -267,13 +270,13 @@ async function exeF() {
               valuateclickVideo[i + 1] = true;
             }
 
-            await clickStreamAndRecordingF();
+            // await clickStreamAndRecordingF();
             await delay(3000)
             await clickVideoF(i);
 
             // console.log("Click Expanded ::: " + i)
-            if (await clickPlayVideoF()) {
-              await clickExpandedF();
+            if (await clickExpandedF()) {
+              await clickPlayVideoF();
               console.log("recording");
               stream.pipe(file);
               truevaluateClickVideo = true;
@@ -466,7 +469,7 @@ const openbrowser = async () => {
       headless: false,
       timeout: 0,
       defaultViewport: null,
-      args: ["--no-sandbox", "--disable-setuid-sandbox", '--window-size=1024,768']
+      args: ["--no-sandbox", "--disable-setuid-sandbox"]
     });
     return brown;
   } catch (error) {
