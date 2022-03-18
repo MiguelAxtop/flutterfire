@@ -1,0 +1,38 @@
+# Remesas V1 Kubernetes Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: video-stream-v1
+  name: video-stream-v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: video-stream-v1
+  template:
+    metadata:
+      labels:
+        app: video-stream-v1
+    spec:
+      containers:
+        - name: video-stream-v1
+          image: gcr.io/chromatic-night-339004/video-stream-v1:latest
+          ports:
+            - containerPort: 8080
+---
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: video-stream-v1-service
+#   annotations:
+#     cloud.google.com/neg: '{"exposed_ports": {"80":{"name": "video-stream-v1-neg"}}}'
+# spec:
+#   type: ClusterIP
+#   selector:
+#     app: video-stream-v1 # Selects Pods labelled
+#   ports:
+#     - port: 80
+#       protocol: TCP
+#       targetPort: 8081
+#       # targetPort: 8080

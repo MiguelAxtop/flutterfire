@@ -1,0 +1,1060 @@
+{
+    "Semana01": [
+        {
+            "videoName": "IntroduccionUnreal 01.mp4 ",
+            "semanaName": "Semana 01 ",
+            "time": "01:45:06"
+        },
+        {
+            "videoName": "IntroduccionUnreal 02.mp4 ",
+            "semanaName": "Semana 01 ",
+            "time": "50:43"
+        },
+        {
+            "videoName": "IntroduccionNodos 01.mp4 ",
+            "semanaName": "Semana 01 ",
+            "time": "01:42:19"
+        },
+        {
+            "videoName": "Loops 01.mp4 ",
+            "semanaName": "Semana 01 ",
+            "time": "02:55:18"
+        }
+    ],
+    "Semana02": [
+        {
+            "videoName": "EerciseReview 02.mp4 ",
+            "semanaName": "Semana 02 ",
+            "time": "01:27:21"
+        },
+        {
+            "videoName": "Functions 01.mp4 ",
+            "semanaName": "Semana 02 ",
+            "time": "01:04:20"
+        },
+        {
+            "videoName": "VarReview 01.mp4 ",
+            "semanaName": "Semana 02 ",
+            "time": "37:22"
+        },
+        {
+            "videoName": "ExerciseReview 01.mp4 ",
+            "semanaName": "Semana 02 ",
+            "time": "01:22:56"
+        },
+        {
+            "videoName": "ExerciseReview 02.mp4 ",
+            "semanaName": "Semana 02 ",
+            "time": "53:51"
+        },
+        {
+            "videoName": "InheritanceAndExercise 01.mp4 ",
+            "semanaName": "Semana 02 ",
+            "time": "01:12:06"
+        },
+        {
+            "videoName": "CorrectingExercise 01.mp4 ",
+            "semanaName": "Semana 02 ",
+            "time": "34:29"
+        },
+        {
+            "videoName": "CorrectingExercise 02.mp4 ",
+            "semanaName": "Semana 02 ",
+            "time": "02:05"
+        },
+        {
+            "videoName": "CorrectingExercise 03.mp4 ",
+            "semanaName": "Semana 02 ",
+            "time": "01:16"
+        },
+        {
+            "videoName": "CorrectingExercise 04.mp4 ",
+            "semanaName": "Semana 02 ",
+            "time": "00:57"
+        },
+        {
+            "videoName": "CorrectingExercise 05.mp4 ",
+            "semanaName": "Semana 02 ",
+            "time": "13:10"
+        }
+    ],
+    "Semana03": [
+        {
+            "videoName": "Character 01.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "01:03:05"
+        },
+        {
+            "videoName": "Character 02.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "37:11"
+        },
+        {
+            "videoName": "CharacterInputs 01.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "37:11"
+        },
+        {
+            "videoName": "OnGrounded 01.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "08:00"
+        },
+        {
+            "videoName": "OnGrounded 02.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "29:15"
+        },
+        {
+            "videoName": "OnGrounded 03.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "01:24:33"
+        },
+        {
+            "videoName": "CharacterMovement 01.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "30:00"
+        },
+        {
+            "videoName": "CharacterMovement 02.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "30:00"
+        },
+        {
+            "videoName": "CharacterMovement 03.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "30:00"
+        },
+        {
+            "videoName": "CharacterMovement 04.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "30:00"
+        },
+        {
+            "videoName": "CharacterMovement 05.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "19:09"
+        },
+        {
+            "videoName": "Enemy 01.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "51:44"
+        },
+        {
+            "videoName": "Enemy 02.mp4 ",
+            "semanaName": "Semana 03 ",
+            "time": "01:06:20"
+        }
+    ],
+    "Semana04": [
+        {
+            "videoName": "CorrectionsAndBullet 01.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "02:11:55"
+        },
+        {
+            "videoName": "CorrectionsAndBullet 02.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "30:00"
+        },
+        {
+            "videoName": "CorrectionsAndBullet 03.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "30:00"
+        },
+        {
+            "videoName": "CorrectionsAndBullet 04.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "30:00"
+        },
+        {
+            "videoName": "CorrectionsAndBullet 05.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "11:55"
+        },
+        {
+            "videoName": "Bullet 01.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "01:04:29"
+        },
+        {
+            "videoName": "Bullet 02.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "55:21"
+        },
+        {
+            "videoName": "EnumAndPhysicBullet 01.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "52:41"
+        },
+        {
+            "videoName": "EnumAndPhysicBullet 02.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "44:02"
+        },
+        {
+            "videoName": "Shooting 01.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "37:22"
+        },
+        {
+            "videoName": "Shooting 02.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "21:08"
+        },
+        {
+            "videoName": "LevelBuilding 01.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "20:21"
+        },
+        {
+            "videoName": "LevelBuilding 02.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "58:28"
+        },
+        {
+            "videoName": "LevelBuilding 03.mp4 ",
+            "semanaName": "Semana 04 ",
+            "time": "50:21"
+        }
+    ],
+    "Semana05": [
+        {
+            "videoName": "WeekExerciseCorrection 01.mp4 ",
+            "semanaName": "Semana 05 ",
+            "time": "52:27"
+        },
+        {
+            "videoName": "2DAnimation 01.mp4 ",
+            "semanaName": "Semana 05 ",
+            "time": "01:29:37"
+        },
+        {
+            "videoName": "TileMap 01.mp4 ",
+            "semanaName": "Semana 05 ",
+            "time": "30:00"
+        },
+        {
+            "videoName": "TileMap 02.mp4 ",
+            "semanaName": "Semana 05 ",
+            "time": "30:00"
+        },
+        {
+            "videoName": "TileMap 03.mp4 ",
+            "semanaName": "Semana 05 ",
+            "time": "20:40"
+        },
+        {
+            "videoName": "TileMap 04.mp4 ",
+            "semanaName": "Semana 05 ",
+            "time": "21:51"
+        },
+        {
+            "videoName": "TileMapDoubts 01.mp4 ",
+            "semanaName": "Semana 05 ",
+            "time": "45:42"
+        },
+        {
+            "videoName": "TileMapDoubts 02.mp4 ",
+            "semanaName": "Semana 05 ",
+            "time": "24:27"
+        },
+        {
+            "videoName": "TileMapDoubts 03.mp4 ",
+            "semanaName": "Semana 05 ",
+            "time": "50:52"
+        }
+    ],
+    "Semana06": [
+        {
+            "videoName": "WeeklyExerciseReview 01.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "58:19"
+        },
+        {
+            "videoName": "WeeklyExerciseReview 02.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "30:08"
+        },
+        {
+            "videoName": "WeeklyExerciseReview 03.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "12:51"
+        },
+        {
+            "videoName": "WeeklyExerciseReview 04.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "40:06"
+        },
+        {
+            "videoName": "TimelineSpanish 01.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "37:14"
+        },
+        {
+            "videoName": "TimelineEnglish 01.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "14:05"
+        },
+        {
+            "videoName": "Exercise2AndSelect 01.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "06:38"
+        },
+        {
+            "videoName": "ExerciseReviewAndCanvas 01.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "01:07:55"
+        },
+        {
+            "videoName": "Canvas 02.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "29:15"
+        },
+        {
+            "videoName": "Canvas 03.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "19:43"
+        },
+        {
+            "videoName": "Canvas 04.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "01:13:36"
+        },
+        {
+            "videoName": "Canvas 05.mp4 ",
+            "semanaName": "Semana 06 ",
+            "time": "28:19"
+        }
+    ],
+    "Semana07": [
+        {
+            "videoName": "WeekExerciseReview 01.mp4 ",
+            "semanaName": "Semana 07 ",
+            "time": "01:03:52"
+        },
+        {
+            "videoName": "WeekExerciseReview 02.mp4 ",
+            "semanaName": "Semana 07 ",
+            "time": "09:59"
+        },
+        {
+            "videoName": "WeekExerciseReview 03.mp4 ",
+            "semanaName": "Semana 07 ",
+            "time": "01:01:52"
+        },
+        {
+            "videoName": "IngameCanvas 01.mp4 ",
+            "semanaName": "Semana 07 ",
+            "time": "44:21"
+        },
+        {
+            "videoName": "Structures 01.mp4 ",
+            "semanaName": "Semana 07 ",
+            "time": "22:38"
+        },
+        {
+            "videoName": "StructuresExercise 01.mp4 ",
+            "semanaName": "Semana 07 ",
+            "time": "44:04"
+        },
+        {
+            "videoName": "Questions 01.mp4 ",
+            "semanaName": "Semana 07 ",
+            "time": "57:44"
+        },
+        {
+            "videoName": "GameModeAndRandomThings 01.mp4 ",
+            "semanaName": "Semana 07 ",
+            "time": "26:52"
+        },
+        {
+            "videoName": "GameModeAndRandomThings 02.mp4 ",
+            "semanaName": "Semana 07 ",
+            "time": "34:01"
+        },
+        {
+            "videoName": "GDDAndQuestions 01.mp4 ",
+            "semanaName": "Semana 07 ",
+            "time": "59:03"
+        },
+        {
+            "videoName": "GDDAndQuestions 02.mp4 ",
+            "semanaName": "Semana 07 ",
+            "time": "20:48"
+        }
+    ],
+    "PrimerProyectoPreguntas": [
+        {
+            "videoName": "ProjectQuestions 01.mp4 ",
+            "semanaName": "PrimerProyectoPreguntas ",
+            "time": "14:43"
+        },
+        {
+            "videoName": "ProjectQuestions 02.mkv ",
+            "semanaName": "PrimerProyectoPreguntas ",
+            "time": "38:22"
+        },
+        {
+            "videoName": "ProjectQuestionsAndTraceChannels 01.mkv ",
+            "semanaName": "PrimerProyectoPreguntas ",
+            "time": "56:01"
+        },
+        {
+            "videoName": "ProjectQuestions 03.mp4 ",
+            "semanaName": "PrimerProyectoPreguntas ",
+            "time": "44:25"
+        },
+        {
+            "videoName": "ProjectQuestions 04.mp4 ",
+            "semanaName": "PrimerProyectoPreguntas ",
+            "time": "57:28"
+        },
+        {
+            "videoName": "ProjectQuestions 05.mp4 ",
+            "semanaName": "PrimerProyectoPreguntas ",
+            "time": "37:08"
+        },
+        {
+            "videoName": "ProjectQuestions 06.mp4 ",
+            "semanaName": "PrimerProyectoPreguntas ",
+            "time": "01:07:08"
+        },
+        {
+            "videoName": "ProjectQuestions 07.mp4 ",
+            "semanaName": "PrimerProyectoPreguntas ",
+            "time": "38:11"
+        }
+    ],
+    "Semana12": [
+        {
+            "videoName": "creacion reel.mp4 ",
+            "semanaName": "Semana 12 ",
+            "time": "02:59:00"
+        },
+        {
+            "videoName": "iluminacion reel.mp4 ",
+            "semanaName": "Semana 12 ",
+            "time": "02:55:50"
+        },
+        {
+            "videoName": "workshop reel.mp4 ",
+            "semanaName": "Semana 12 ",
+            "time": "02:36:55"
+        }
+    ],
+    "SemanaUnrealGrafismoPREMIERE13": [
+        {
+            "videoName": "01 Presentacion 01.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "30:49"
+        },
+        {
+            "videoName": "01 Plan.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "29:24"
+        },
+        {
+            "videoName": "02 PlanForEnglishSpeakers.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "11:11"
+        },
+        {
+            "videoName": "02 VersionesUnreal.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "14:39"
+        },
+        {
+            "videoName": "02 Photshop BajarImagendePeso.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "06:11"
+        },
+        {
+            "videoName": "02 Environment Comentarios.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "30:22"
+        },
+        {
+            "videoName": "02 CrearPRoyecto.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "21:22"
+        },
+        {
+            "videoName": "02 FBX Contenido.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "25:12"
+        },
+        {
+            "videoName": "02 LODvsTesellation.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "13:49"
+        },
+        {
+            "videoName": "02 FBX ImportDialog.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "17:36"
+        },
+        {
+            "videoName": "02 Migrate.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "05:47"
+        },
+        {
+            "videoName": "02 ObjetivoSemanal.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "02:26"
+        },
+        {
+            "videoName": "03 GameJam.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "10:50"
+        },
+        {
+            "videoName": "03 questions.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "05:40"
+        },
+        {
+            "videoName": "03 PerspectiveView.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "16:21"
+        },
+        {
+            "videoName": "03 StaticMeshEditor 01.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "26:34"
+        },
+        {
+            "videoName": "03 StaticMeshEditor LOD 01.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "12:02"
+        },
+        {
+            "videoName": "03 StartingLevel.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "10:29"
+        },
+        {
+            "videoName": "03 Blockout.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "13:16"
+        },
+        {
+            "videoName": "03 TexelDensity Resolution.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "22:09"
+        },
+        {
+            "videoName": "03 Luces.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "23:32"
+        },
+        {
+            "videoName": "03 Luces 02.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "10:01"
+        },
+        {
+            "videoName": "04 Comentarios UnrealOnline.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "08:05"
+        },
+        {
+            "videoName": "04 Comentarios Blocking.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "14:58"
+        },
+        {
+            "videoName": "04 Escala.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "06:20"
+        },
+        {
+            "videoName": "04 ContentBrowser.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "06:08"
+        },
+        {
+            "videoName": "04 ReplaceActors.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "02:35"
+        },
+        {
+            "videoName": "04 NavMEsh.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "13:23"
+        },
+        {
+            "videoName": "04 Fog.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "11:02"
+        },
+        {
+            "videoName": "04 SphereREflectionCapture.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "27:33"
+        },
+        {
+            "videoName": "04 Lightmaps.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "01:33"
+        },
+        {
+            "videoName": "04 TAREA.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "09:08"
+        },
+        {
+            "videoName": "04 bookmarks.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "06:41"
+        },
+        {
+            "videoName": "04 Comentarios Proyectos.mp4 ",
+            "semanaName": "Semana Unreal Grafismo PREMIERE 13 ",
+            "time": "32:59"
+        }
+    ],
+    "SemanaUnrealMaterials14": [
+        {
+            "videoName": "01 Intro 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "07:27"
+        },
+        {
+            "videoName": "01 Revision presencial 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "42:30"
+        },
+        {
+            "videoName": "01 FormatoDeArchivos 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "02:52"
+        },
+        {
+            "videoName": "01 Hamam Questions 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "02:32"
+        },
+        {
+            "videoName": "01 RevisionesOnline 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "13:23"
+        },
+        {
+            "videoName": "01 EngineScalability 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "03:35"
+        },
+        {
+            "videoName": "01 DisableAllScreenMessages 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "03:14"
+        },
+        {
+            "videoName": "01 BuildLighting 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "01:11"
+        },
+        {
+            "videoName": "01 PBR 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "17:37"
+        },
+        {
+            "videoName": "01 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "07:33"
+        },
+        {
+            "videoName": "01 MasterMaterial PArameters 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "17:48"
+        },
+        {
+            "videoName": "01 MasterMaterial Switch 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "19:16"
+        },
+        {
+            "videoName": "02 GDC 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "11:58"
+        },
+        {
+            "videoName": "02 Valcir 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "07:08"
+        },
+        {
+            "videoName": "02 MasterMaterial Roughness.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "12:20"
+        },
+        {
+            "videoName": "02 MasterMaterial Color.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "17:12"
+        },
+        {
+            "videoName": "02 UVsTileable.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "15:05"
+        },
+        {
+            "videoName": "02 MasterMaterial Tint.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "14:38"
+        },
+        {
+            "videoName": "02 MasterMaterial NormalMap.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "43:59"
+        },
+        {
+            "videoName": "02 MasterMaterial Statistics.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "16:12"
+        },
+        {
+            "videoName": "03 REpaso PBR.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "16:45"
+        },
+        {
+            "videoName": "03 LAndscape Sculpting.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "39:32"
+        },
+        {
+            "videoName": "03 LAndscape Sculpting2.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "04:36"
+        },
+        {
+            "videoName": "03 Comentarios alejandro.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "09:30"
+        },
+        {
+            "videoName": "03 LAndscape MAterial 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "37:34"
+        },
+        {
+            "videoName": "03 LAndscape MAterial 02.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "22:02"
+        },
+        {
+            "videoName": "04 Dudas.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "07:25"
+        },
+        {
+            "videoName": "04 Decals 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "33:27"
+        },
+        {
+            "videoName": "04 Decals 02.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "04:07"
+        },
+        {
+            "videoName": "04 Decals 03.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "12:25"
+        },
+        {
+            "videoName": "04 VertexPainting 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "27:04"
+        },
+        {
+            "videoName": "04 VertexPainting 02.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "21:32"
+        },
+        {
+            "videoName": "04 TAREA 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "19:09"
+        },
+        {
+            "videoName": "04 GameJam 01.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "10:45"
+        },
+        {
+            "videoName": "05 TUTORIA Mario.mp4 ",
+            "semanaName": "Semana Unreal Materials 14 ",
+            "time": "14:55"
+        }
+    ],
+    "SemanaUnrealPostProcessCameras15": [
+        {
+            "videoName": "01 Revision presencial 01.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "01:37:11"
+        },
+        {
+            "videoName": "01 Revision online 01.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "14:36"
+        },
+        {
+            "videoName": "01 Questions.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "09:45"
+        },
+        {
+            "videoName": "01 Landscape Target.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "08:17"
+        },
+        {
+            "videoName": "01 LAndscape limits.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "02:50"
+        },
+        {
+            "videoName": "02 Comentarios.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "27:42"
+        },
+        {
+            "videoName": "02 Floren.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "23:30"
+        },
+        {
+            "videoName": "02 Landscape.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "22:45"
+        },
+        {
+            "videoName": "02 PostProcess01.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "12:53"
+        },
+        {
+            "videoName": "02 PostProcess LUT.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "06:23"
+        },
+        {
+            "videoName": "02 PostProcess 02.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "14:10"
+        },
+        {
+            "videoName": "02 PostProcess 03.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "12:24"
+        },
+        {
+            "videoName": "02 Reflexiones.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "27:52"
+        },
+        {
+            "videoName": "03 Progreso.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "32:46"
+        },
+        {
+            "videoName": "03 PropertyMatrix.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "03:39"
+        },
+        {
+            "videoName": "03 Hamam.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "05:32"
+        },
+        {
+            "videoName": "03 Sequencer.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "21:09"
+        },
+        {
+            "videoName": "03 SequencerAnimacion.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "33:21"
+        },
+        {
+            "videoName": "03 SequencerRender.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "28:54"
+        },
+        {
+            "videoName": "04 Comentarios Proyectos.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "01:00:34"
+        },
+        {
+            "videoName": "04 SequencerAnimaciones.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "23:23"
+        },
+        {
+            "videoName": "04 Skylight Juan.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "06:32"
+        },
+        {
+            "videoName": "04 TAREA HOMEWORK.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "14:22"
+        },
+        {
+            "videoName": "04 Build Lighting Production.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "05:59"
+        },
+        {
+            "videoName": "04 Ejemplos.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "11:59"
+        },
+        {
+            "videoName": "05 TUTORIA Add Divisions para vertex painitng.mp4 ",
+            "semanaName": "Semana Unreal PostProcessCameras 15 ",
+            "time": "45:06"
+        }
+    ],
+    "SemanaRetargetpolishing16": [
+        {
+            "videoName": "01 Revision presencial 01.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "01:20:42"
+        },
+        {
+            "videoName": "01 Revision online 01.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "15:29"
+        },
+        {
+            "videoName": "01 Streming Pool Background PLanes 01.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "09:28"
+        },
+        {
+            "videoName": "02 Correcciones.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "33:15"
+        },
+        {
+            "videoName": "02 SourceControl.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "35:46"
+        },
+        {
+            "videoName": "02 BackgroundPLane.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "13:22"
+        },
+        {
+            "videoName": "02 Retarget 01.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "29:22"
+        },
+        {
+            "videoName": "02 Retarget 02.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "04:57"
+        },
+        {
+            "videoName": "02 Retarget 03.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "24:21"
+        },
+        {
+            "videoName": "03 CorreosMega.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "05:02"
+        },
+        {
+            "videoName": "03 FINAL HOMEWORK.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "20:56"
+        },
+        {
+            "videoName": "03 MovevsCopy.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "13:36"
+        },
+        {
+            "videoName": "03 Decals Ignore.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "06:59"
+        },
+        {
+            "videoName": "03 Levels.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "17:49"
+        },
+        {
+            "videoName": "03 Colisions.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "14:06"
+        },
+        {
+            "videoName": "03 RenderPasses.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "26:11"
+        },
+        {
+            "videoName": "03 Solucion Sequencer wrongCamera.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "15:57"
+        },
+        {
+            "videoName": "03 Sequencer.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "16:22"
+        },
+        {
+            "videoName": "05 TUTORIA PlayerStartyUltimaTarea.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "17:10"
+        },
+        {
+            "videoName": "03 FINAL HOMEWORK REVIEW.mp4 ",
+            "semanaName": "Semana Retarget polishing 16 ",
+            "time": "38:57"
+        }
+    ],
+    "Semana17": [
+        {
+            "videoName": "Animations 01.mp4 ",
+            "semanaName": "Semana 17 ",
+            "time": "01:13:34"
+        },
+        {
+            "videoName": "Animations 02.mp4 ",
+            "semanaName": "Semana 17 ",
+            "time": "27:06"
+        },
+        {
+            "videoName": "AnimationSystem 01.mp4 ",
+            "semanaName": "Semana 17 ",
+            "time": "01:04:45"
+        },
+        {
+            "videoName": "AnimationSystem 02.mp4 ",
+            "semanaName": "Semana 17 ",
+            "time": "30:05"
+        },
+        {
+            "videoName": "AnimationsIK 01.mp4 ",
+            "semanaName": "Semana 17 ",
+            "time": "40:05"
+        },
+        {
+            "videoName": "AnimationsIK 02.mp4 ",
+            "semanaName": "Semana 17 ",
+            "time": "30:05"
+        }
+    ]
+}
