@@ -119,6 +119,9 @@ async function clickExpandedF() {
       break;
     } else {
       validar = await expandVideo(frame, position[contPosition], position2[contPosition]);
+      if (validar === false) {
+        return true;
+      }
     }
     contPosition++;
   }
@@ -342,8 +345,10 @@ async function exeF() {
 }
 
 
-app.listen(port, () =>
+app.listen(port, () => {
   console.log(`Example app listening on port ${port}!`)
+  notification("Server Iniciado Correctamente")
+}
 );
 var request = require('request');
 
