@@ -271,7 +271,7 @@ async function exeF() {
             }
 
             await clickStreamAndRecordingF();
-            // await delay(3000)
+            await delay(3000)
             await clickVideoF(i);
 
             // console.log("Click Expanded ::: " + i)
