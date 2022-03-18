@@ -93,16 +93,20 @@ async function clickVideoF(pos) {
   // console.log("TIME : " + timeTime)
   const newSemanaName = arraySemana[pos]['newSemanaName'];
   if (pos === 0) {
-    await delay(3000);
     await page.waitForSelector(`div.folderitem.videoitem[file="${newSemanaName}"]`);
     await page.click(`div.folderitem.videoitem[file="${newSemanaName}"]`);
     stream = await getStream(page, { audio: true, video: true });
   } else {
+    console.log("3.3 Entrando a la Semana");
     stream = await getStream(page, { audio: true, video: true });
   }
   // stream = await getStream(page, { audio: true, video: true });
 }
 async function clickExpandedF() {
+  console.log("3.3 Click Expanded");
+  console.log('before waiting');
+  await delay(10000);
+  console.log('after waiting');
   // Hacer grande la pantala video -------------
   const elementHandle = await page.waitForSelector('div#videocontent > iframe');
   frame = await elementHandle.contentFrame();
@@ -115,13 +119,10 @@ async function clickExpandedF() {
       break;
     } else {
       validar = await expandVideo(frame, position[contPosition], position2[contPosition]);
-      if (validar == false) {
-        return true;
-      }
     }
     contPosition++;
   }
-  // return validar;
+  return validar;
 }
 async function clickEscF(pageOrFrame) {
   if (pageOrFrame) {
@@ -132,10 +133,6 @@ async function clickEscF(pageOrFrame) {
   // Hacer grande la pantala video -------------
 }
 async function clickPlayVideoF() {
-  console.log("3.3 Click play video");
-  console.log('before waiting');
-  await delay(10000);
-  console.log('after waiting');
   // const elementHandle = await page.waitForSelector('div#videocontent > iframe');
   // frame = await elementHandle.contentFrame();
   const elementHandle = await page.waitForSelector('div#videocontent > iframe');
@@ -270,13 +267,13 @@ async function exeF() {
               valuateclickVideo[i + 1] = true;
             }
 
-            // await clickStreamAndRecordingF();
-            await delay(3000)
+            await clickStreamAndRecordingF();
+            // await delay(3000)
             await clickVideoF(i);
 
             // console.log("Click Expanded ::: " + i)
             if (await clickExpandedF()) {
-              await clickPlayVideoF();
+              await clickPlayVideoF()
               console.log("recording");
               stream.pipe(file);
               truevaluateClickVideo = true;
