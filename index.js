@@ -391,11 +391,7 @@ const alternativapuppeter = async (arraySemanaD, semanaName, widthScreen, height
       ]);
       console.log("Esperando 3 segundos")
       await delay(3000);
-      await Promise.all([
-        console.log("2.2. Cerrar pantalla de mensaje"),
-        page.waitForSelector('div.welcomewin div.novermas2'),
-        page.click('div.welcomewin div.novermas2')
-      ])
+      await cerrarpantallamensaje(page)
       console.log("Esperando 3 segundos")
       await delay(3000);
       await Promise.all([
@@ -460,6 +456,18 @@ function delay(time) {
   });
 }
 
+
+async function cerrarpantallamensaje(page) {
+  try {
+    await Promise.all([
+      console.log("2.2. Cerrar pantalla de mensaje"),
+      page.waitForSelector('div.welcomewin div.novermas2'),
+      page.click('div.welcomewin div.novermas2')
+    ])
+  } catch (error) {
+    console.log("Error al cerrar pantalla de mensaje")
+  }
+}
 /// abrir browser support
 const openbrowser = async () => {
   try {
