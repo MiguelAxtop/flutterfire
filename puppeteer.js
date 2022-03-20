@@ -13,7 +13,7 @@ const runner = async (videoName, semanaName, newSemanaName, time, widthScreen, h
   let browser;
   browser = await openbrowser(browser);
   if (browser === "") {
-    notificationError(videoName)
+    notification("ERROR: " + videoName)
     return { "error": "abrir navegador" }
   } else {
 

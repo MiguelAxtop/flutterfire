@@ -9,8 +9,10 @@ const port = process.env.PORT || 8080;
 
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
+var globaldevideToken = "";
 app.post("/video", async (req, res) => {
-  const { videoName, semanaName, newSemanaName, time, widthScreen, heightScreen, widthHoverButton, heightHoverButton } = req.body;
+  const { videoName, semanaName, newSemanaName, time, widthScreen, heightScreen, widthHoverButton, heightHoverButton, devideToken } = req.body;
+  globaldevideToken = devideToken;
   const data = await runner(videoName, semanaName, newSemanaName, time, widthScreen, heightScreen, widthHoverButton, heightHoverButton);
   return res.json({ data });
 });
@@ -48,7 +50,8 @@ var positionArraySemanaD = 0;
 // app.use(bodyParser.json()); // support json encoded bodies
 // app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 app.post("/videoalternativa", async (req, res) => {
-  const { arraySemanaD, semanaName, widthScreen, heightScreen, widthHoverButton, heightHoverButton } = req.body;
+  const { arraySemanaD, semanaName, widthScreen, heightScreen, widthHoverButton, heightHoverButton, devideToken } = req.body;
+  globaldevideToken = devideToken;
   resetAll();
   arraySemana = arraySemanaD;
   setTimeout(async () => {
@@ -119,9 +122,6 @@ async function clickExpandedF() {
       break;
     } else {
       validar = await expandVideo(frame, position[contPosition], position2[contPosition]);
-      if (validar === false) {
-        return true;
-      }
     }
     contPosition++;
   }
@@ -271,7 +271,7 @@ async function exeF() {
             }
 
             await clickStreamAndRecordingF();
-            await delay(3000)
+            // await delay(3000)
             await clickVideoF(i);
 
             // console.log("Click Expanded ::: " + i)
@@ -292,8 +292,8 @@ async function exeF() {
             let timeOriginal = element['time']
             let timeVideo = splitnameVideoEvaluate[0];
             const numtimeTime = timeConvert(timeVideo);
-            // console.log(numtimeTime)
-            // console.log(timeConvert(timeOriginal))
+            console.log(numtimeTime)
+            console.log(timeConvert(timeOriginal))
             if (numtimeTime >= (timeConvert(timeOriginal) - 3000)) {
               if (valuateInterval[i]) {
                 if (i < arraySemana.length) {
@@ -325,6 +325,7 @@ async function exeF() {
       }
     } catch (error) {
       console.log(error)
+      notification(`Errpr: ${videoName}`)
     }
   }, 1000);
   // if (i < arraySemana.length - 1) {
@@ -345,10 +346,8 @@ async function exeF() {
 }
 
 
-app.listen(port, () => {
+app.listen(port, () =>
   console.log(`Example app listening on port ${port}!`)
-  notification("Server Iniciado Correctamente")
-}
 );
 var request = require('request');
 
@@ -366,6 +365,7 @@ const alternativapuppeter = async (arraySemanaD, semanaName, widthScreen, height
     notification(`Error: ${videoName}`);
     return { "error": "abrir navegador" }
   } else {
+    notification(`Comenzo: ${videoName}`)
     console.log("Abrimos la pagina")
     // Abrimos una nueva pagina
     page = await browser.newPage();
@@ -463,6 +463,10 @@ function delay(time) {
 /// abrir browser support
 const openbrowser = async () => {
   try {
+    if (browser !== null) {
+      await browser.close();
+    }
+    console.log("Entro open browser")
     let brown = await launch({
       // Ejecutable en linux
       executablePath: "/usr/bin/microsoft-edge-stable",
@@ -473,6 +477,7 @@ const openbrowser = async () => {
       defaultViewport: null,
       args: ["--no-sandbox", "--disable-setuid-sandbox"]
     });
+    console.log("Termina open browser")
     return brown;
   } catch (error) {
     console.log(error);
@@ -559,7 +564,7 @@ const notification = (videoName) => {
         "body": "Remesa Autorizada id-remesa",
         "title": "La remesa del socio id-socio"
       },
-      "to": "f9AaOqF_QlGZbCTzUBqAQt:APA91bFqzP-UMnu_c_hXh3Wp3g3G6t8tH42KL8Uj7K6zyhWo7hySDFEy5oD0RBdRW32RqdCTESCGlQCqFl6kVOTVLFLsEGZ4YX9djKd0X9zksgcCiMu0cZffxZk43OMra-0EXh4EvkiQ"
+      "to": globaldevideToken
     })
 
   };
@@ -587,7 +592,7 @@ const notificationError = (videoName) => {
         "body": "Remesa Autorizada id-remesa",
         "title": "La remesa del socio id-socio"
       },
-      "to": "f9AaOqF_QlGZbCTzUBqAQt:APA91bFqzP-UMnu_c_hXh3Wp3g3G6t8tH42KL8Uj7K6zyhWo7hySDFEy5oD0RBdRW32RqdCTESCGlQCqFl6kVOTVLFLsEGZ4YX9djKd0X9zksgcCiMu0cZffxZk43OMra-0EXh4EvkiQ"
+      "to": globaldevideToken
     })
 
   };
