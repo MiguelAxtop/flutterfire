@@ -43,15 +43,15 @@ steps:
   # - name: "gcr.io/cloud-builders/gke-deploy"
   #   args: ["kubectl", "rollout", "restart", "deployment/video-stream-v1"]
   #   timeout: 1800s
-  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+  - name: "gcr.io/cloud-builders/kubectl"
+    entrypoint: "sh"
     args:
-      [
-        "kubectl",
-        "rollout",
-        "restart",
-        "deployment/${_API_NAME}-${_SHORT_VERSION}",
-      ]
-    timeout: 1800s
+      - "-c"
+      - |
+        set -x  # Print commands
+        set -e  # Fail if any command below fails
+        gcloud container clusters get-credentials cluster-2 --zone us-central1-c --project $PROJECT_ID
+        kubectl rollout restart deployment/${_API_NAME}-${_SHORT_VERSION}
 
 substitutions:
   _API_NAME: video-stream # api name
