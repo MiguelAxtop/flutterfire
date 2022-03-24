@@ -294,8 +294,8 @@ async function exeF() {
             let timeOriginal = element['time']
             let timeVideo = splitnameVideoEvaluate[0];
             const numtimeTime = timeConvert(timeVideo);
-            console.log(numtimeTime)
-            console.log(timeConvert(timeOriginal))
+            // console.log(numtimeTime)
+            // console.log(timeConvert(timeOriginal))
             if (numtimeTime >= (timeConvert(timeOriginal) - 3000)) {
               if (valuateInterval[i]) {
                 if (i < arraySemana.length) {
