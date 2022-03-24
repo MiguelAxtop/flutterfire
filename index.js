@@ -122,6 +122,9 @@ async function clickExpandedF() {
       break;
     } else {
       validar = await expandVideo(frame, position[contPosition], position2[contPosition]);
+      if (validar) {
+        return true;
+      }
     }
     contPosition++;
   }
@@ -259,7 +262,6 @@ async function exeF() {
 
         // }, arraytimeTime[i] + 2000);
       } else {
-
 
         if (contadorVideos < arraySemana.length) {
           let i = contadorVideos;
@@ -517,10 +519,10 @@ const expandVideo = async (frame, divNthChild, img) => {
       frame.waitForSelector(`div.fwdevp:last-child > div:nth-child(${divNthChild}) > div:first-child > div:last-child > div:last-child > img:${img}-child`),
       frame.click(`div.fwdevp:last-child > div:nth-child(${divNthChild}) > div:first-child > div:last-child > div:last-child > img:${img}-child`)
     ]);
-    return false;
+    return true;
   } catch (error) {
     console.log(error);
-    return true;
+    return false;
   }
 }
 const clickCursoMenu = async (page, int) => {
