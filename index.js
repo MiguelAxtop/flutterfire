@@ -223,7 +223,7 @@ async function exeF() {
           console.log("archivo eliminado correctamente");
           const filePath = __dirname + `/${videoNameNotSpace}.webm`;
           fs.unlinkSync(filePath);
-        }, 60000);
+        }, 180000);
       } catch (error) {
         console.log("error al subir archivo")
       }
