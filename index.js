@@ -473,6 +473,7 @@ async function cerrarpantallamensaje(page) {
 const openbrowser = async () => {
   try {
     if (browser !== null) {
+      console.log("close browser")
       await browser.close();
     }
     console.log("Entro open browser")
@@ -482,13 +483,13 @@ const openbrowser = async () => {
       // Ejecutable en Windows
       // executablePath: "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
       headless: false,
-      timeout: 0,
       defaultViewport: null,
       args: ["--no-sandbox", "--disable-setuid-sandbox"]
     });
     console.log("Termina open browser")
     return brown;
   } catch (error) {
+    console.log("error open browser")
     console.log(error);
     return "";
   }
